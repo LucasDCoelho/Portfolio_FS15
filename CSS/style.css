@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;700&display=swap');
+
 *{
     margin: 0 auto;
     padding: 0 auto;
@@ -7,15 +7,19 @@
     text-decoration: none;
     color: whitesmoke;
     font-family: 'Archivo', sans-serif;
+    outline: 1px solid red;
+    outline-offset: -1px;
 }
 
 body{
     /* background-color: #6c757d; */
     /* background-color: #343a40; */
     background-color: #1e2125;
-    display: flex;
     width: 100%;
     border: 1px solid red;
+}
+.container {
+    display: flex;
 }
 
 aside{
@@ -33,20 +37,6 @@ aside img{
     border-radius: 60px;
 }
 
-aside ul li a svg{
-    max-width: 20px;
-
-}
-
-aside ul li .svg-correction{
-    border: 1px solid red;
-}
-
-aside .container{
-    display: flex;
-    align-self: center;
-}
-
 aside .align-lft{
     border: 1px solid red;
     width: fit-content;
@@ -54,7 +44,12 @@ aside .align-lft{
     line-height: 1.3rem;
 }
 
-aside button{
+aside ul li .icons{
+    text-align: left;
+}
+
+aside .btn-bg{
+    display: block;
     margin-top: 50px;
     color: whitesmoke;
     background-color: cornflowerblue;
@@ -65,11 +60,13 @@ aside button{
     text-shadow: 0px 1px  rgb(25, 105, 255);
     border: none;
     font-size: 17px;
+    text-align: center;
+    transition-duration: .3s;
 }
-aside button:hover{
-    box-shadow: 0px 0px 0px;
+aside .btn-bg:hover{
+    box-shadow: 0px 3px 5px rgba(8, 85, 227, 0.87);
 }
-aside button:active{
+aside .btn-bg:active{
     box-shadow: inset 0px 1px 10px rgb(8, 85, 227);
 }
 
@@ -79,22 +76,14 @@ main{
     border-radius: 20px;
     padding: 32px;
     line-height: 22px;
-    opacity: 0.5;
 }
 
 main nav{
-
     background-color: dodgerblue;
-    
-
 }
 
 footer{
-    display: block;
-    position: absolute;
-    bottom: 100%;
-    left: 50%;
-    transform: translate(-50%, 100%);
+    text-align: center;
 }
 
 

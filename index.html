@@ -4,226 +4,180 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="CSS/style.css">
         <title>Portfolio</title>
+        <!-- CSS Only -->
+        <link rel="stylesheet" href="CSS/style.css">
+
+        <!--Fonts Only -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&display=swap" rel="stylesheet">
+
+        <!-- Material Icons -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material Icons">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
-        <aside>
-            <img src="Images/94465173.jfif" alt="Imagem de perfil">
-            <h2>Lucas Dian Coelho</h2>
-            <h3>Full Stack Developer</h3>
-            <ul class="container">
-                <li>
-                    <a href="" class="svg-correction">
-                        <svg width="24px" height="24px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                            <g>
-                                <path fill="none" d="M0 0h24v24H0z"/>
-                                <path fill-rule="nonzero" d="M12 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6zm0-2a5 5 0 1 1 0 10 5 5 0 0 1 0-10zm6.5-.25a1.25 1.25 0 0 1-2.5 0 1.25 1.25 0 0 1 2.5 0zM12 4c-2.474 0-2.878.007-4.029.058-.784.037-1.31.142-1.798.332-.434.168-.747.369-1.08.703a2.89 2.89 0 0 0-.704 1.08c-.19.49-.295 1.015-.331 1.798C4.006 9.075 4 9.461 4 12c0 2.474.007 2.878.058 4.029.037.783.142 1.31.331 1.797.17.435.37.748.702 1.08.337.336.65.537 1.08.703.494.191 1.02.297 1.8.333C9.075 19.994 9.461 20 12 20c2.474 0 2.878-.007 4.029-.058.782-.037 1.309-.142 1.797-.331.433-.169.748-.37 1.08-.702.337-.337.538-.65.704-1.08.19-.493.296-1.02.332-1.8.052-1.104.058-1.49.058-4.029 0-2.474-.007-2.878-.058-4.029-.037-.782-.142-1.31-.332-1.798a2.911 2.911 0 0 0-.703-1.08 2.884 2.884 0 0 0-1.08-.704c-.49-.19-1.016-.295-1.798-.331C14.925 4.006 14.539 4 12 4zm0-2c2.717 0 3.056.01 4.122.06 1.065.05 1.79.217 2.428.465.66.254 1.216.598 1.772 1.153a4.908 4.908 0 0 1 1.153 1.772c.247.637.415 1.363.465 2.428.047 1.066.06 1.405.06 4.122 0 2.717-.01 3.056-.06 4.122-.05 1.065-.218 1.79-.465 2.428a4.883 4.883 0 0 1-1.153 1.772 4.915 4.915 0 0 1-1.772 1.153c-.637.247-1.363.415-2.428.465-1.066.047-1.405.06-4.122.06-2.717 0-3.056-.01-4.122-.06-1.065-.05-1.79-.218-2.428-.465a4.89 4.89 0 0 1-1.772-1.153 4.904 4.904 0 0 1-1.153-1.772c-.248-.637-.415-1.363-.465-2.428C2.013 15.056 2 14.717 2 12c0-2.717.01-3.056.06-4.122.05-1.066.217-1.79.465-2.428a4.88 4.88 0 0 1 1.153-1.772A4.897 4.897 0 0 1 5.45 2.525c.638-.248 1.362-.415 2.428-.465C8.944 2.013 9.283 2 12 2z"/>
-                            </g>
-                        </svg>
-                    </a>
-                </li>
-                <li>
-                    <a href="" class="svg-correction">
-                       <svg width="25px" height="25px" viewBox="0 -0.5 25 25" xmlns="http://www.w3.org/2000/svg"><path d="m12.301 0h.093c2.242 0 4.34.613 6.137 1.68l-.055-.031c1.871 1.094 3.386 2.609 4.449 4.422l.031.058c1.04 1.769 1.654 3.896 1.654 6.166 0 5.406-3.483 10-8.327 11.658l-.087.026c-.063.02-.135.031-.209.031-.162 0-.312-.054-.433-.144l.002.001c-.128-.115-.208-.281-.208-.466 0-.005 0-.01 0-.014v.001q0-.048.008-1.226t.008-2.154c.007-.075.011-.161.011-.249 0-.792-.323-1.508-.844-2.025.618-.061 1.176-.163 1.718-.305l-.076.017c.573-.16 1.073-.373 1.537-.642l-.031.017c.508-.28.938-.636 1.292-1.058l.006-.007c.372-.476.663-1.036.84-1.645l.009-.035c.209-.683.329-1.468.329-2.281 0-.045 0-.091-.001-.136v.007c0-.022.001-.047.001-.072 0-1.248-.482-2.383-1.269-3.23l.003.003c.168-.44.265-.948.265-1.479 0-.649-.145-1.263-.404-1.814l.011.026c-.115-.022-.246-.035-.381-.035-.334 0-.649.078-.929.216l.012-.005c-.568.21-1.054.448-1.512.726l.038-.022-.609.384c-.922-.264-1.981-.416-3.075-.416s-2.153.152-3.157.436l.081-.02q-.256-.176-.681-.433c-.373-.214-.814-.421-1.272-.595l-.066-.022c-.293-.154-.64-.244-1.009-.244-.124 0-.246.01-.364.03l.013-.002c-.248.524-.393 1.139-.393 1.788 0 .531.097 1.04.275 1.509l-.01-.029c-.785.844-1.266 1.979-1.266 3.227 0 .025 0 .051.001.076v-.004c-.001.039-.001.084-.001.13 0 .809.12 1.591.344 2.327l-.015-.057c.189.643.476 1.202.85 1.693l-.009-.013c.354.435.782.793 1.267 1.062l.022.011c.432.252.933.465 1.46.614l.046.011c.466.125 1.024.227 1.595.284l.046.004c-.431.428-.718 1-.784 1.638l-.001.012c-.207.101-.448.183-.699.236l-.021.004c-.256.051-.549.08-.85.08-.022 0-.044 0-.066 0h.003c-.394-.008-.756-.136-1.055-.348l.006.004c-.371-.259-.671-.595-.881-.986l-.007-.015c-.198-.336-.459-.614-.768-.827l-.009-.006c-.225-.169-.49-.301-.776-.38l-.016-.004-.32-.048c-.023-.002-.05-.003-.077-.003-.14 0-.273.028-.394.077l.007-.003q-.128.072-.08.184c.039.086.087.16.145.225l-.001-.001c.061.072.13.135.205.19l.003.002.112.08c.283.148.516.354.693.603l.004.006c.191.237.359.505.494.792l.01.024.16.368c.135.402.38.738.7.981l.005.004c.3.234.662.402 1.057.478l.016.002c.33.064.714.104 1.106.112h.007c.045.002.097.002.15.002.261 0 .517-.021.767-.062l-.027.004.368-.064q0 .609.008 1.418t.008.873v.014c0 .185-.08.351-.208.466h-.001c-.119.089-.268.143-.431.143-.075 0-.147-.011-.214-.032l.005.001c-4.929-1.689-8.409-6.283-8.409-11.69 0-2.268.612-4.393 1.681-6.219l-.032.058c1.094-1.871 2.609-3.386 4.422-4.449l.058-.031c1.739-1.034 3.835-1.645 6.073-1.645h.098-.005zm-7.64 17.666q.048-.112-.112-.192-.16-.048-.208.032-.048.112.112.192.144.096.208-.032zm.497.545q.112-.08-.032-.256-.16-.144-.256-.048-.112.08.032.256.159.157.256.047zm.48.72q.144-.112 0-.304-.128-.208-.272-.096-.144.08 0 .288t.272.112zm.672.673q.128-.128-.064-.304-.192-.192-.32-.048-.144.128.064.304.192.192.32.044zm.913.4q.048-.176-.208-.256-.24-.064-.304.112t.208.24q.24.097.304-.096zm1.009.08q0-.208-.272-.176-.256 0-.256.176 0 
-                        .208.272.176.256.001.256-.175zm.929-.16q-.032-.176-.288-.144-.256.048-.224.24t.288.128.225-.224z"/></svg> 
-                    </a>
-                </li>
-                <li>
-                    <a href="" class="svg-correction">
-                        <?xml version="1.0" encoding="iso-8859-1"?>
-                            <!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-                        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                            viewBox="0 0 310 310" style="enable-background:new 0 0 310 310;" xml:space="preserve">
-                        <g id="XMLID_826_">
-                            <path id="XMLID_827_" d="M302.973,57.388c-4.87,2.16-9.877,3.983-14.993,5.463c6.057-6.85,10.675-14.91,13.494-23.73
-                                c0.632-1.977-0.023-4.141-1.648-5.434c-1.623-1.294-3.878-1.449-5.665-0.39c-10.865,6.444-22.587,11.075-34.878,13.783
-                                c-12.381-12.098-29.197-18.983-46.581-18.983c-36.695,0-66.549,29.853-66.549,66.547c0,2.89,0.183,5.764,0.545,8.598
-                                C101.163,99.244,58.83,76.863,29.76,41.204c-1.036-1.271-2.632-1.956-4.266-1.825c-1.635,0.128-3.104,1.05-3.93,2.467
-                                c-5.896,10.117-9.013,21.688-9.013,33.461c0,16.035,5.725,31.249,15.838,43.137c-3.075-1.065-6.059-2.396-8.907-3.977
-                                c-1.529-0.851-3.395-0.838-4.914,0.033c-1.52,0.871-2.473,2.473-2.513,4.224c-0.007,0.295-0.007,0.59-0.007,0.889
-                                c0,23.935,12.882,45.484,32.577,57.229c-1.692-0.169-3.383-0.414-5.063-0.735c-1.732-0.331-3.513,0.276-4.681,1.597
-                                c-1.17,1.32-1.557,3.16-1.018,4.84c7.29,22.76,26.059,39.501,48.749,44.605c-18.819,11.787-40.34,17.961-62.932,17.961
-                                c-4.714,0-9.455-0.277-14.095-0.826c-2.305-0.274-4.509,1.087-5.294,3.279c-0.785,2.193,0.047,4.638,2.008,5.895
-                                c29.023,18.609,62.582,28.445,97.047,28.445c67.754,0,110.139-31.95,133.764-58.753c29.46-33.421,46.356-77.658,46.356-121.367
-                                c0-1.826-0.028-3.67-0.084-5.508c11.623-8.757,21.63-19.355,29.773-31.536c1.237-1.85,1.103-4.295-0.33-5.998
-                                C307.394,57.037,305.009,56.486,302.973,57.388z"/>
-                        </g>
-                        <g>
-                        </g>
-                        <g>
-                        </g>
-                        <g>
-                        </g>
-                        <g>
-                        </g>
-                        <g>
-                        </g>
-                        <g>
-                        </g>
-                        <g>
-                        </g>
-                        <g>
-                        </g>
-                        <g>
-                        </g>
-                        <g>
-                        </g>
-                        <g>
-                        </g>
-                        <g>
-                        </g>
-                        <g>
-                        </g>
-                        <g>
-                        </g>
-                        <g>
-                        </g>
-                        </svg>
-                    </a>
-                </li>
-            </ul>
-            
-            <ul class="align-lft">
-                <li>
-                    <i></i> October 31, 1999
-                </li>
-                <li>
-                    <i></i> Fortaleza, Brazil
-                </li>
-                <li>
-                    <a href="">
-                        <i></i> exemple@gmail.com
-                    </a>
-                </li>
-                <li>
-                    <i></i> +559959598979    
-                </li>
-                <li>
-                    <a href="">
-                        <i></i> LucasDCoelho
-                    </a>
-                </li>
-            </ul>
-
-            <button type="submit"><i></i>Download CV</button>
-
-        </aside>
-
-        <main>
-            <nav>
-                <ul>
-                    <li>
-                        <a href="">About</a>
-                    </li>
-                    <li>
-                        <a href="">Resume</a>
-                    </li>
-                    <li>
-                        <a href="">Portfolio</a>
-                    </li>
-                    <li>
-                        <a href="">Blog</a>
-                    </li>
-                    <li>
-                        <a href="">Contact</a>
-                    </li>
-                </ul>
-            </nav>
-            <section>
-                <h1>About Me</h1>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi exercitationem iure accusamus recusandae 
-                    aliquid qui in magnam nesciunt sed nobis delectus molestiae, blanditiis a corrupti, dolore illum nulla! Hic, dolorem.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi exercitationem iure accusamus recusandae 
-                    aliquid qui in magnam nesciunt sed nobis delectus molestiae, blanditiis a corrupti, dolore illum nulla! Hic, dolorem.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi exercitationem iure accusamus recusandae 
-                    aliquid qui in magnam nesciunt sed nobis delectus molestiae, blanditiis a corrupti, dolore illum nulla! Hic, dolorem. <br><br>
+        <div class="container">
+            <div class="item">
+                <aside>
+                    <img src="Images/94465173.jfif" alt="Imagem de perfil">
+                    <h2>Lucas Dian Coelho</h2>
+                    <h3>Full Stack Developer</h3>
+                    <ul>
+                        <li>
+                            <a href="" class="fa fa-facebook"></a>
+                        </li>
+                        <li>
+                            <a href="" class="fa fa-twitter"></a>
+                        </li>
+                        <li>
+                            <a href="" class="fa fa-linkedin"></a>
+                        </li>
+                    </ul>
                     
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi exercitationem iure accusamus recusandae 
-                    aliquid qui in magnam nesciunt sed nobis delectus molestiae, blanditiis a corrupti, dolore illum nulla! Hic, dolorem.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi exercitationem iure accusamus recusandae 
-                    aliquid qui in magnam nesciunt sed nobis delectus molestiae, blanditiis a corrupti, dolore illum nulla! Hic, dolorem.
-                </p>
-            </section>
+                    <ul class="align-lft">
+                        <li>
+                            <i class="material-icons icons">cake</i> October 31, 1999
+                        </li>
+                        <li>
+                            <i class="material-icons icons">location_on</i> Fortaleza, Brazil
+                        </li>
+                        <li>
+                            <a href="">
+                                <i class="material-icons icons">email</i> exemple@gmail.com
+                            </a>
+                        </li>
+                        <li>
+                            <i class="material-icons icons">call</i> +559959598979    
+                        </li>
+                        <li>
+                            <a href="">
+                                <i class="fa fa-github icons"></i> LucasDCoelho
+                            </a>
+                        </li>
+                    </ul>
+    
+                    <a class="btn-bg"><i class="material-icons">download</i>Download CV</a>
+    
+                </aside>
+            </div>
+            <div class="item">
+                <main>
+                    <nav>
+                        <ul>
+                            <li>
+                                <a href="">About</a>
+                            </li>
+                            <li>
+                                <a href="">Resume</a>
+                            </li>
+                            <li>
+                                <a href="">Portfolio</a>
+                            </li>
+                            <li>
+                                <a href="">Blog</a>
+                            </li>
+                            <li>
+                                <a href="">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <section>
+                        <h1>About Me</h1>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi exercitationem iure accusamus recusandae 
+                            aliquid qui in magnam nesciunt sed nobis delectus molestiae, blanditiis a corrupti, dolore illum nulla! Hic, dolorem.
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi exercitationem iure accusamus recusandae 
+                            aliquid qui in magnam nesciunt sed nobis delectus molestiae, blanditiis a corrupti, dolore illum nulla! Hic, dolorem.
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi exercitationem iure accusamus recusandae 
+                            aliquid qui in magnam nesciunt sed nobis delectus molestiae, blanditiis a corrupti, dolore illum nulla! Hic, dolorem. <br><br>
+                            
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi exercitationem iure accusamus recusandae 
+                            aliquid qui in magnam nesciunt sed nobis delectus molestiae, blanditiis a corrupti, dolore illum nulla! Hic, dolorem.
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi exercitationem iure accusamus recusandae 
+                            aliquid qui in magnam nesciunt sed nobis delectus molestiae, blanditiis a corrupti, dolore illum nulla! Hic, dolorem.
+                        </p>
+                    </section>
 
-            <section>
-                <h2>What I'm Doing</h2>
-                <article>
-                    <i></i>
-                    <h4>Web Design</h4>
-                    <p>The most modern and high-quality design made at a professional level</p>
-                </article>
-                <article>
-                    <i></i>
-                    <h4>Mobile Apps</h4>
-                    <p>Professional development of applications for iOS and Android.</p>
-                </article>
-                <article>
-                    <i></i>
-                    <h4>Web Developmentn</h4>
-                    <p>High-quality and professional development of sites at the professional level.</p>
-                </article>
-                <article>
-                    <i></i>
-                    <h4>Photography</h4>
-                    <p>I make high-quality photos of any category at a professional level.</p>
-                </article>
-            </section>
+                    <section>
+                        <h2>What I'm Doing</h2>
+                        <article>
+                            <i></i>
+                            <h4>Web Design</h4>
+                            <p>The most modern and high-quality design made at a professional level</p>
+                        </article>
+                        <article>
+                            <i></i>
+                            <h4>Mobile Apps</h4>
+                            <p>Professional development of applications for iOS and Android.</p>
+                        </article>
+                        <article>
+                            <i></i>
+                            <h4>Web Developmentn</h4>
+                            <p>High-quality and professional development of sites at the professional level.</p>
+                        </article>
+                        <article>
+                            <i></i>
+                            <h4>Photography</h4>
+                            <p>I make high-quality photos of any category at a professional level.</p>
+                        </article>
+                    </section>
 
-            <section>
-                <h2>Testimonials</h2>
-                <article>
-                    <img>
-                    <h5>Daniel Lewis</h5>
-                    <p>Felecia was hired to create a corporate identity. We were very pleased with the work done.</p>
-                </article>
-                <article>
-                    <img>
-                    <h5>Daniel Lewis</h5>
-                    <p>Felecia was hired to create a corporate identity. We were very pleased with the work done.</p>
-                </article>
-                <article>
-                    <img>
-                    <h5>Daniel Lewis</h5>
-                    <p>Felecia was hired to create a corporate identity. We were very pleased with the work done.</p>
-                </article>
-                <article>
-                    <img>
-                    <h5>Daniel Lewis</h5>
-                    <p>Felecia was hired to create a corporate identity. We were very pleased with the work done.</p>
-                </article>
-            </section>
+                    <section>
+                        <h2>Testimonials</h2>
+                        <article>
+                            <img>
+                            <h5>Daniel Lewis</h5>
+                            <p>Felecia was hired to create a corporate identity. We were very pleased with the work done.</p>
+                        </article>
+                        <article>
+                            <img>
+                            <h5>Daniel Lewis</h5>
+                            <p>Felecia was hired to create a corporate identity. We were very pleased with the work done.</p>
+                        </article>
+                        <article>
+                            <img>
+                            <h5>Daniel Lewis</h5>
+                            <p>Felecia was hired to create a corporate identity. We were very pleased with the work done.</p>
+                        </article>
+                        <article>
+                            <img>
+                            <h5>Daniel Lewis</h5>
+                            <p>Felecia was hired to create a corporate identity. We were very pleased with the work done.</p>
+                        </article>
+                    </section>
 
-            <section>
-                <h2>Clients</h2>
-                <article>
-                    <i></i>
-                    <h4>Company Name</h4>
-                </article>
-                <article>
-                    <i></i>
-                    <h4>Company Name</h4>
-                </article>
-                <article>
-                    <i></i>
-                    <h4>Company Name</h4>
-                </article>
-                <article>
-                    <i></i>
-                    <h4>Company Name</h4>
-                </article>
-                <article>
-                    <i></i>
-                    <h4>Company Name</h4>
-                </article>
-                <article>
-                    <i></i>
-                    <h4>Company Name</h4>
-                </article>
-            </section>
-        </main>
-
+                    <section>
+                        <h2>Clients</h2>
+                        <article>
+                            <i></i>
+                            <h4>Company Name</h4>
+                        </article>
+                        <article>
+                            <i></i>
+                            <h4>Company Name</h4>
+                        </article>
+                        <article>
+                            <i></i>
+                            <h4>Company Name</h4>
+                        </article>
+                        <article>
+                            <i></i>
+                            <h4>Company Name</h4>
+                        </article>
+                        <article>
+                            <i></i>
+                            <h4>Company Name</h4>
+                        </article>
+                        <article>
+                            <i></i>
+                            <h4>Company Name</h4>
+                        </article>
+                    </section>
+                </main>
+            </div>
+        </div>
         <footer>
             <p>Feito com amor por Lucas Coelho</p>
         </footer>
