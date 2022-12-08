@@ -18,73 +18,21 @@ body{
     width: 100%;
     border: 1px solid red;
 }
+
 .container {
     display: flex;
 }
 
-aside{
-    margin: 30px;
-    min-width: 20vw;
-    height: 85vh;
+main div aside {
     background-color: #343a40;
-    padding: 16px;
-    border-radius: 20px;
-    text-align: center;
-}
-
-aside img{
-    max-width: 200px;
-    border-radius: 60px;
-}
-
-aside .align-lft{
-    border: 1px solid red;
-    width: fit-content;
-    text-align: left;
-    line-height: 1.3rem;
-}
-
-aside ul li .icons{
-    display: inline-block;
-}
-
-aside .btn-bg{
-    display: block;
-    margin-top: 50px;
-    color: whitesmoke;
-    background-color: cornflowerblue;
-    width: 10rem;
-    height: 8vh;
-    border-radius: 15px;
-    box-shadow: 0px 3px 5px rgb(25, 105, 255);
-    text-shadow: 0px 1px  rgb(25, 105, 255);
-    border: none;
-    font-size: 17px;
-    text-align: center;
-    transition-duration: .3s;
-}
-aside .btn-bg:hover{
-    box-shadow: 0px 3px 5px rgba(8, 85, 227, 0.87);
-}
-aside .btn-bg:active{
-    box-shadow: inset 0px 1px 10px rgb(8, 85, 227);
-}
-
-main{
-    background-color: #343a40;
-    margin: 30px;
-    border-radius: 20px;
     padding: 32px;
-    line-height: 22px;
+    margin: 16px;
+    border-radius: 20px;
 }
 
-main nav{
-    background-color: dodgerblue;
+main div aside img{
+    width: 100%;
+    border-radius: 20px;
 }
 
-footer{
-    text-align: center;
-}
-
-
-
+main div aside{}
