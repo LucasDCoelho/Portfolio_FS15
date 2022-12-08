@@ -45,7 +45,7 @@ aside .align-lft{
 }
 
 aside ul li .icons{
-    text-align: left;
+    display: inline-block;
 }
 
 aside .btn-bg{
