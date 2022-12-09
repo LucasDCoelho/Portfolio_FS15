@@ -1,8 +1,12 @@
-function myFunction(){
-    let x = document.getElementById('myLinks');
-    if( x.style.display === 'block'){
-        x.style.display = 'none';
+function toggle(){
+    let ul = document.getElementById('nav-menu');
+    let btn_toggle = document.getElementById('toggle');
+
+    if(ul.classList.contains('active')){
+        ul.classList.remove('active');
+        btn_toggle.innerText = 'close';
     } else{
-        x.style.display = 'block';
+        ul.classList.add('active');
+        btn_toggle.innerText = 'menu';
     }
 }

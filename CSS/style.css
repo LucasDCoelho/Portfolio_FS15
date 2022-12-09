@@ -28,7 +28,8 @@ main div aside {
     padding: 32px;
     margin: 16px;
     border-radius: 20px;
-    width: 22vw;
+    min-width: 22vw;
+    text-align: center;
 }
 
 main div aside img{
@@ -36,16 +37,34 @@ main div aside img{
     border-radius: 20px;
 }
 
-main div nav {
-    background-color: #1e90ff;
+main div aside ul.flex-icon{
     display: flex;
+    justify-content: center;
     align-items: center;
 }
 
-main div nav ul{
+main div aside ul li a.flex-link{
+    display: inline-block;
+}
+
+main div aside a.download{
     display: flex;
-    width: 100%;
-    justify-content: space-between;
+    margin-top: 30px;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    background-color: #1e90ff;
+    min-height: 6vh;
+    border-radius: 10px;
+    box-shadow: 0px 1px 5px #1e90ff;
+}
+
+main div aside a.download:hover{
+    box-shadow: 1px 1px 8px #1e90ff;
+}
+
+main div aside a i.icon{
+    margin: 0px
 }
 
 main div .bg-secs{
@@ -53,6 +72,36 @@ main div .bg-secs{
     padding: 32px;
     border-radius: 20px;
     margin: 16px;
+}
+
+main div div .navbar {
+    background-color: #1e90ff;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 20px;
+    padding: 0 24px;
+}
+
+main div div .navbar .nav-menu{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 60px;
+}
+
+.nav-link{
+    transition: 0.7s ease;
+}
+
+.nav-link:hover{
+    color: blue;
+}
+
+.hamburguer{
+    display: block;
+    cursor: pointer;
+
 }
 
 main div div .align{
@@ -64,3 +113,22 @@ main div div section h2{
     border-bottom: 5px solid #1e90ff;
     padding-bottom: 10px;
 }
+
+main div div section div div article{
+    margin-bottom: 20px;
+}
+
+main div div section div div article,
+main div div section div div p,
+main div div section div div h4{
+    background-color: #5d6872;
+    color: #1e90ff;
+
+
+}
+
+
+footer{
+    text-align: center;
+}
+
