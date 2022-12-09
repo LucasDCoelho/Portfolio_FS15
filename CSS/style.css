@@ -17,19 +17,28 @@ body{
     background-color: #1e2125;
     width: 100%;
     border: 1px solid red;
+
 }
 
 .container {
     display: flex;
 }
 
+.margin-top{
+    margin-top: 80px;
+}
+
+
 main div aside {
     background-color: #343a40;
     padding: 32px;
-    margin: 16px;
+    margin: 80px 20px 16px 40px;
     border-radius: 20px;
-    min-width: 22vw;
+    width: 18vw;
     text-align: center;
+    position: fixed;
+    left: 0;
+    top: 0;
 }
 
 main div aside img{
@@ -71,7 +80,7 @@ main div .bg-secs{
     background-color: #343a40;
     padding: 32px;
     border-radius: 20px;
-    margin: 16px;
+    width: 70vw;
 }
 
 main div div .navbar {
@@ -115,20 +124,32 @@ main div div section h2{
 }
 
 main div div section div div article{
-    margin-bottom: 20px;
+   margin: 20px 0px 20px 0px;
+}
+
+.item-art{
+    margin-right: 20px;
 }
 
 main div div section div div article,
 main div div section div div p,
 main div div section div div h4{
-    background-color: #5d6872;
-    color: #1e90ff;
-
-
+    background-color: #1e2125;
+    padding: 8px;
+    border-radius: 10px;
 }
 
+.icon{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+main div div section div div h4,
+main div div section div div img{
+    margin: 0;
+}
 
 footer{
     text-align: center;
 }
-
