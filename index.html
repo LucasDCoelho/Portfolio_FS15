@@ -7,11 +7,12 @@
         <title>Portfolio</title>
         <!-- CSS Only -->
         <link rel="stylesheet" href="CSS/style.css">
+        <link rel="stylesheet" href="CSS/swiper-bundle.min.css">
 
         <!--Fonts Only -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@100;200;300;400;700&display=swap" rel="stylesheet">
 
         <!-- Material Icons -->
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material Icons">
@@ -23,7 +24,7 @@
                 <aside class="margin-top">
                     <div class="move-content">
                         <img src="Images/94465173.jfif" alt="Imagem de perfil">
-                        <h2>Lucas Dian Coelho</h2>
+                        <h2>Lucas <strong> Dian Coelho</strong></h2>
                         <h5>Full Stack Developer</h5>
                         <ul class="flex-icon">
                                     <li class="flex-item">
@@ -38,26 +39,26 @@
                         </ul>
                                 
                         <ul class="aside-nav-menu">
-                                    <i class="material-icons icons aside-nav-icon">cake</i>
                                     <li class="aside-nav-item">
+                                        <i class="material-icons icons aside-nav-icon">cake</i>
                                         October 31, 1999
                                     </li>
-                                    <i class="material-icons icons aside-nav-icon">location_on</i>
                                     <li class="aside-nav-item">
+                                        <i class="material-icons icons aside-nav-icon">location_on</i>
                                         Fortaleza, Brazil
                                     </li>
-                                    <i class="material-icons icons aside-nav-icon">email</i>
                                     <li class="aside-nav-item">
+                                        <i class="material-icons icons aside-nav-icon">email</i>
                                         <a href="">
                                             exemple@gmail.com
                                         </a>
                                     </li>
-                                    <i class="material-icons icons aside-nav-icon">call</i>
                                     <li class="aside-nav-item">
+                                        <i class="material-icons icons aside-nav-icon">call</i>
                                         +559959598979    
                                     </li>
-                                    <i class="fa fa-github icons aside-nav-icon"></i>
                                     <li class="aside-nav-item">
+                                        <i class="fa fa-github" style="font-size: 26px;"></i>
                                         <a href="">
                                             LucasDCoelho
                                         </a>
@@ -72,10 +73,10 @@
             </div>
             <div class="item" style="margin-right: 50px;">
                 <div class="bg-secs margin-top">
-                    <nav class="navbar">
+                    <nav class="navbar" id="nav">
                         <ul id="nav-menu" class="nav-menu">
                             <li class="nav-item">
-                                <a href="" class="nav-link">About</a>
+                                <a href="" class="nav-link highlight">About</a>
                             </li>
                             <li class="nav-item">
                                 <a href="" class="nav-link">Resume</a>
@@ -91,12 +92,8 @@
                             </li>
 
                         </ul>
-
-                        <a href="" class="humburguer">
-                            <i class="material-icons" id="toggle" onclick="toggle()">menu</i>
-                        </a>
-                        
                     </nav>
+                    <i class="material-icons btn-menu" id="toggle" onclick="toggle()">menu</i>
                 
                     <section class="align">
                         <h2>About Me</h2>
@@ -154,29 +151,31 @@
                         </div>
                     </section>
         
-                    <section class="align conta">
+                    <section class="align">
                         <h2>Testimonials</h2>
-                        <div class="container">
-                            <article>
-                                <img>
-                                <h5>Daniel Lewis</h5>
-                                <p>Felecia was hired to create a corporate identity. We were very pleased with the work done.</p>
-                            </article>
-                            <article>
-                                <img>
-                                <h5>Daniel Lewis</h5>
-                                <p>Felecia was hired to create a corporate identity. We were very pleased with the work done.</p>
-                            </article>
-                            <article>
-                                <img>
-                                <h5>Daniel Lewis</h5>
-                                <p>Felecia was hired to create a corporate identity. We were very pleased with the work done.</p>
-                            </article>
-                            <article>
-                                <img>
-                                <h5>Daniel Lewis</h5>
-                                <p>Felecia was hired to create a corporate identity. We were very pleased with the work done.</p>
-                            </article>
+                        <div class="mySwiper">
+                            <div class="swiper-wrapper hidden">
+                                <article class="swiper-slide">
+                                    <img>
+                                    <h5>Daniel Lewis</h5>
+                                    <p>Felecia was hired to create a corporate identity. We were very pleased with the work done.</p>
+                                </article>
+                                <article class="swiper-slide">
+                                    <img>
+                                    <h5>Daniel Lewis</h5>
+                                    <p>Felecia was hired to create a corporate identity. We were very pleased with the work done.</p>
+                                </article>
+                                <article class="swiper-slide">
+                                    <img>
+                                    <h5>Daniel Lewis</h5>
+                                    <p>Felecia was hired to create a corporate identity. We were very pleased with the work done.</p>
+                                </article>
+                                <article class="swiper-slide">
+                                    <img>
+                                    <h5>Daniel Lewis</h5>
+                                    <p>Felecia was hired to create a corporate identity. We were very pleased with the work done.</p>
+                                </article>
+                            </div>
                         </div>
                     </section>
                     
@@ -225,5 +224,6 @@
         
         
         <script src="scripts/scripts.js"></script>
+        <script src="scripts/swiper-bundle.min.js"></script>
     </body>
 </html>
