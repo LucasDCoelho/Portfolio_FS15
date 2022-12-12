@@ -7,8 +7,8 @@
     text-decoration: none;
     color: whitesmoke;
     font-family: 'Archivo', sans-serif;
-    outline: 1px solid red;
-    outline-offset: -1px;
+    /* outline: 1px solid red;
+    outline-offset: -1px; */
 }
 
 body{
@@ -41,10 +41,17 @@ main div aside {
     top: 0;
 }
 
+.move-content{
+    transition: .2s;
+    top: 160px;
+    position: sticky;
+}
+
 main div aside img{
     width: 100%;
     height: 100%;
-    border-radius: 20px;
+    border-radius: 30px;
+    margin-bottom: 5px;
 }
 
 main div aside ul.flex-icon{
@@ -83,6 +90,7 @@ main div aside ul li.aside-nav-icon{
     margin: 0;
     display: flex;
     align-items: center;
+    gap: 5px;
 }
 
 main div aside a.download{
@@ -183,8 +191,17 @@ main div div .align{
 
 main div div section h2{
     margin-top: 10px;
-    border-bottom: 5px solid #1e90ff;
+    /* border-bottom: 5px solid #1e90ff; */
     padding-bottom: 10px;
+}
+
+main div section span.bar{
+    height: 10px;
+    display: flex;
+    background-color: #1e90ff;
+    border-radius: 10px;
+    width: 100%;
+    margin-bottom: 10px;
 }
 
 main div div section div div article{
@@ -203,10 +220,15 @@ main div div section div div h4{
     border-radius: 10px;
 }
 
+main div div section p{
+    margin-top: 10px;
+}
+
 .icon{
     display: flex;
     align-items: center;
     justify-content: flex-start;
+    margin-left: 8px;
 }
 
 main div div section div div h4,
