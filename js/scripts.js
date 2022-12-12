@@ -14,16 +14,15 @@ function toggle(){
     }
 }
 
-var swiper = new Swiper(".mySwiper", {
-    slidesPerView: 1,
-    spaceBetween: 30,
-    loop: true,
-    pagination: {
-      el: ".swiper-pagination",
-      clickable: true,
-    },
-    navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
-    },
+function animationScroll(){
+  document.addEventListener('scroll', (event) => {
+    let altura = window.pageYOffset;
+    if(altura > 50){
+      document.getElementsByTagName("div")[1].classList.add("down");
+    }else{
+      document.getElementsByTagName("div")[1].classList.remove("down");
+    }
   });
+}
+
+animationScroll();
