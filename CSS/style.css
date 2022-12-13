@@ -95,6 +95,7 @@ main div aside ul li.aside-nav-icon{
     margin: 0;
     display: flex;
     align-items: center;
+
     gap: 5px;
 }
 
@@ -144,7 +145,7 @@ main div nav.navbar {
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    border-radius: 20px 0 0 20px;
+    border-radius: 20px;
     height: 40px;
     padding: 0 24px;
     position: absolute;
@@ -155,7 +156,7 @@ main div nav.navbar {
 }
 
 main div .navbar .nav-menu{
-    transition: .5s ease-in;
+    transition: .5s ease-in-out;
     overflow: hidden;
     display: flex;
     position: absolute;
@@ -204,7 +205,7 @@ main div div .align{
 }
 
 main div div section h2{
-    margin-top: 10px;
+    margin-top: 30px;
     /* border-bottom: 5px solid #1e90ff; */
     padding-bottom: 10px;
 }
@@ -242,13 +243,14 @@ main div div section section{
 
 main div div section section article.testimonial{
     background-color: #1e2125;
-    border-radius: 5px;
-    margin-left: 6px;
+    border-radius: 10px;
+    /* margin-left: 6px; */
 }
 
 main div div section section h5,
 main div div section section p{
     padding: 5px;
+    margin: 0px 0px 5px 10px;
 }
 
 main div div section section h5{
@@ -280,13 +282,14 @@ main div div section section img{
 
 .section-mg{
     margin: 60px 0;
+    gap: 20px;
 }
 
 
 .tes-img{
     margin-left: 5px;
     position: absolute;
-    bottom: 250px;
+    bottom: 270px;
 }
 
 
@@ -322,7 +325,7 @@ footer{
     .tes-img{
         margin-left: 5px;
         position: absolute;
-        bottom: 380px;
+        bottom: 400px;
     }
 
 }
@@ -361,6 +364,6 @@ footer{
     .tes-img{
         margin-left: 5px;
         position: absolute;
-        bottom: 300px;
+        bottom: 330px;
     }
 }
