@@ -294,6 +294,7 @@ footer{
 }
 
 
+
 @media(max-width: 600px){
 
     main.container{
@@ -312,4 +313,36 @@ footer{
         margin: 0;
     }
 
+}
+
+@media(max-width: 1200px){
+
+    main.container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main div aside{
+        width: 70vw;
+    }
+
+    main div aside div.move-content{
+        bottom: 0px;
+    }
+
+    main div aside ul.aside-nav-menu,
+    main div aside ul.aside-nav-item{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 0px 70px;
+
+    }
+
+    main div aside ul.aside-nav-item,
+    main div aside ul.aside-nav-icon{
+        margin: 0px 80px;
+    }
 }
