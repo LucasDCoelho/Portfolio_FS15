@@ -26,3 +26,20 @@ function animationScroll(){
 }
 
 animationScroll();
+
+
+function filterConcept(){
+  let concept = document.querySelectorAll("[class = concept]");
+  let design = document.querySelectorAll("[class = design]");
+  let life = document.querySelectorAll("[class = life]");
+
+  console.log(concept);
+
+  for(let i = 0; i < concept.length; i++){
+    concept[i].addEventListener('click', () =>{
+      design.style.display = "none";
+      life.style.display = "none";
+      concept.style.display = "initial";
+    });
+  };
+};
