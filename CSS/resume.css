@@ -11,6 +11,10 @@
     outline-offset: -1px; */
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 *, ::before, ::after{
     background-repeat: no-repeat;
     box-sizing: border-box;
@@ -282,10 +286,9 @@ article.resume_item_rg::before{
     left: -5.5px;
     box-shadow: 0 0 0 0.1875rem rgb(13 134 255 / 25%);
 }
-
-section section article h4,span,p{
+section.container h4,span:not(.foo),p{
     display: block;
-    margin-bottom: 10px;
+    padding-bottom: 10px;
 }
 
 section section article span{
@@ -300,7 +303,7 @@ section section article span{
 
 .skills{
     display: flex;
-    margin-top: 50px;
+    margin-top: 60px;
     justify-content: center;
     align-items: center;
     gap: 15px;
@@ -462,6 +465,10 @@ footer{
         bottom: 400px;
     }
 
+    .skills{
+        display: block;
+    }
+
 }
 
 @media(max-width: 1200px){
@@ -499,5 +506,14 @@ footer{
         margin-left: 5px;
         position: absolute;
         bottom: 330px;
+    }
+
+    .skills{
+        display: block;
+        margin-top: 30px;
+    }
+
+    section.skills h2{
+        margin-top: 50px;
     }
 }
