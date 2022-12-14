@@ -209,6 +209,91 @@ main div nav.navbar.active{
     color: white;
 }
 
+.title{
+    margin-top: 30px;
+    position: relative;
+    padding-bottom: 15px;
+}
+
+.title::after{
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 8px;
+    background-color: #1e90ff;
+    bottom: 0;
+    left: 0;
+    border-radius: 10px;
+}
+
+.flex_resume_lf{
+    display: flex;
+    gap: 5px;
+    margin: 20px 0 15px 0;
+}
+
+section.flex_resume_lf i,h3{
+    margin: 0;
+}
+
+.resume_item_lf,
+.resume_item_rg{
+    border-left: 1px solid darkgray;
+    position: relative;
+    padding: 0 10px 10px 10px;
+    margin-left: 5px;
+}
+
+.resume_item_lf:last-child,
+.resume_item_rg:last-child{
+    border: 0;
+}
+
+article.resume_item_lf::before{
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    background-color: #1e90ff;
+    width: 10px;
+    height: 10px;
+    top: 4px;
+    left: -5.5px;
+    box-shadow: 0 0 0 0.1875rem rgb(13 134 255 / 25%);
+}
+
+.flex_resume_rg{
+    display: flex;
+    gap: 5px;
+    margin: 20px 0 15px 0;
+}
+
+section.flex_resume_rg i,h3{
+    margin: 0;
+}
+
+article.resume_item_rg::before{
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    background-color: #1e90ff;
+    width: 10px;
+    height: 10px;
+    top: 4px;
+    left: -5.5px;
+    box-shadow: 0 0 0 0.1875rem rgb(13 134 255 / 25%);
+}
+
+section section article h4,span,p{
+    display: block;
+    margin-bottom: 10px;
+}
+
+section section article span{
+    font-weight: 100;
+}
+
+
+
 /* .skills-mg{
     margin-right: 50px;
 } */
@@ -232,7 +317,7 @@ main div nav.navbar.active{
 .skills-bg{
     background-color: #1e2125;
     padding: 20px;
-    width: 300px;
+    width: 470px;
     height: 100%;
     border-radius: 20px;
 }
@@ -252,6 +337,11 @@ main div nav.navbar.active{
     border-radius: 10px;
     height: 25px;
     align-items: center;
+    margin-bottom: 20px;
+}
+
+.bar:last-child{
+    margin: 0;
 }
 
 .content-bar{
