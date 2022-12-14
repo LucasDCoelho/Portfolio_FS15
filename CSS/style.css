@@ -11,6 +11,10 @@
     outline-offset: -1px; */
 }
 
+*::selection{
+    color: #1e90ff;
+}
+
 body{
     /* background-color: #6c757d; */
     /* background-color: #343a40; */
