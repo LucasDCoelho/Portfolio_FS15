@@ -24,6 +24,10 @@ html{
     color: #1e90ff;
 }
 
+a{
+    color: white;
+}
+
 body{
     /* background-color: #6c757d; */
     /* background-color: #343a40; */

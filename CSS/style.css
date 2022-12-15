@@ -19,12 +19,16 @@ html{
     color: #1e90ff;
 }
 
+a{
+    color: white;
+}
+
 body{
     /* background-color: #6c757d; */
     /* background-color: #343a40; */
     background-color: #1e2125;
     width: 100%;
-
+    min-height: 100vh;
 }
 
 .container {
